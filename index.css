@@ -1,0 +1,242 @@
+body{
+    height: 100%; 
+    margin: 0;
+}
+header{   
+    background-image: radial-gradient(circle, rgb(211, 211, 211), rgb(169, 169, 169));
+    margin-top: 15px;
+    padding-top: 35px;
+    height: 75px;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#name h3{
+    margin: 0;
+    color: black;
+    font-family: cursive;
+    margin-top: -12px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+#name h3:hover{
+    color: black;
+}
+#headings nav ul{
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+    display: flex;
+    margin-right: 35px;
+    gap: 75px;
+}
+#headings nav ul li a{
+    font-family: cursive;
+    font-weight: 550;
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    display: inline-block; 
+    transition: color 0.3s, transform 0.3s;
+}
+#headings nav ul li a:hover{
+    color: black;
+    transform: scale(1.5);
+    font-weight: bold;
+}
+#Home{
+    background-image: radial-gradient(circle,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 1));
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+#myself{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#myself img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-right: 60px;
+    margin-left: -150px;
+    border: 2px solid black;
+}
+#title{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(41, 41, 41);
+    display: inline-block;
+    margin-top: -100px;
+}
+#tagline {
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    max-width: 80%;
+    margin-left: 115px;
+    animation-name: Blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes Blink{
+    0%{
+    box-shadow: 0px 0px 3px 3px white;
+    }
+}
+#one{
+    font-size: 25px;
+}
+#two{
+    font-size: 40px;
+}
+#aboutme #hdg h2{
+    background-image: radial-gradient(circle, rgb(211, 211, 211), rgb(169, 169, 169));
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    height: 70px;
+    width: 100%;
+    font-size: 35px;
+    font-family: cursive;
+    transition: color 0.3s;
+}
+#aboutpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+#aboutimg img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+#aboutme #desp{
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+    border-radius: 8%;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 50px;
+    line-height: 30px;
+    padding: 20px;
+    padding-top: 55px;
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 18px;
+}
+#Skills{
+    text-align: center;
+    background-color: #f9f9f9;
+}
+#Skills #skillpage #skillhead h2{
+    background-image: radial-gradient(circle, rgb(211, 211, 211), rgb(169, 169, 169));
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    height: 70px;
+    width: 100%;
+    font-size: 35px;
+    font-family: cursive;
+    transition: color 0.3s;
+}
+#allskills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 175px;
+    flex-wrap: wrap;
+    background-image: radial-gradient(circle,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 1));
+}
+#allskills div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+#allskills img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#allskills img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px 10px white;
+}
+#Projects {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+#Projects #projectheading h2 {
+    background-image: radial-gradient(circle, rgb(211, 211, 211), rgb(169, 169, 169));
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    height: 70px;
+    width: 100%;
+    font-size: 35px;
+    font-family: cursive;
+    transition: color 0.3s;
+}
+#Projects #allproj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: #eaeaea;
+}
+#allproj div{
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    border-radius: 8%;
+}
+#Projects #allproj div:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+/* 
+#Projects #allproj div h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Cursive', sans-serif;
+    font-weight: bold;
+}
+
+#Projects #allproj div p {
+    font-size: 16px;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+} */
