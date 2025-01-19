@@ -58,7 +58,6 @@ header div{
     align-items: center;
     margin-bottom: 50px;
 }
-
 #myself img{
     width: 350px;
     height: 350px;
@@ -100,11 +99,13 @@ header div{
 #two{
     font-size: 40px;
 }
+
 #aboutme #hdg h2{
     background-image: radial-gradient(circle, rgb(211, 211, 211), rgb(169, 169, 169));
     text-align: center;
     color: rgb(0, 0, 0);
     padding-top: 20px;
+    
     height: 70px;
     width: 100%;
     font-size: 35px;
