@@ -75,7 +75,7 @@ header div{
     display: inline-block;
     margin-top: -100px;
 }
-#tagline {
+#tagline{
     color: whitesmoke;
     font-weight: 600;
     margin-top: 10px;
@@ -143,10 +143,6 @@ header div{
     font-style: italic;
     font-size: 18px;
 }
-#Skills{
-    text-align: center;
-    background-color: #f9f9f9;
-}
 #Skills #skillpage #skillhead h2{
     background-image: radial-gradient(circle, rgb(211, 211, 211), rgb(169, 169, 169));
     text-align: center;
@@ -191,36 +187,31 @@ header div{
 }
 #Projects #projectheading h2{
     background-image: radial-gradient(circle, rgb(211, 211, 211), rgb(169, 169, 169));
+    text-align: center;
     color: rgb(0, 0, 0);
     padding-top: 20px;
+    margin-top: 1px;
     height: 70px;
     width: 100%;
     font-size: 35px;
     font-family: cursive;
-    transition: color 0.3s;
 }
 #Projects #allproj{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 0;
-    background-color: #eaeaea;
-
 }
 #allproj div{
     display: inline-block;
     width: 400px;
     height: 350px;
-    margin-top: 10px;
+    margin-top: 63px;
     margin-bottom: 85px;
+    margin-left: 50px;
     border: 2px solid #ddd;
     background-color: #fff;
     border-radius: 8%;
 }
-/* #Projects #allproj div:hover{
-    transform: scale(1.05);
-    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
-} */
 #Projects #allproj div h4{
     text-align: center;
     font-size: 20px;
@@ -234,4 +225,72 @@ header div{
     line-height: 1.5;
     text-wrap: wrap;
     padding: 15px;
+}
+#Projects #allproj div .btn{
+    height: 50px;
+    width: 125px;
+    margin-top: 7px;
+    margin-left: 125px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 8px;
+}
+#Projects #allproj div .btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 3px 3px grey;
+}
+#Education{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-bottom: 50px;
+}
+#eduvalues a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+#eduheading h2{
+    background-image: radial-gradient(circle, rgb(211, 211, 211), rgb(169, 169, 169));
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    margin-top: 1px;
+    height: 70px;
+    width: 100%;
+    font-size: 35px;
+    font-family: cursive;
+}
+#eduvalues{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+#eduvalues div{
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 3px black;
+}
+#eduvalues img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#eduvalues p{
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;  
+    font-family: cursive;  
 }
