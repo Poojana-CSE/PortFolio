@@ -57,31 +57,32 @@ header div{
     padding-bottom: 75px;
 }
 #myself{
-    display: flex;
+    display: inline;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
 }
-#myself img{
-    width: 500px;
-    height: 500px;
-    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-    margin-top: -50px;
-    margin-right: 60px;
-    margin-left: -150px;
-}
-#title{
-    font-family: cursive;
+#intro{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: 900;
     color: whitesmoke;
+    width: 550px;
+    margin-top: -75px;
+    margin-left:450px;
+}
+#title{
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 900;
+    color: whitesmoke;
     display: inline-block;
-    margin-top: -100px;
+    margin-top: 15px;
 }
 #tagline{
     color: whitesmoke;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 15px;
     border: 2px solid black;
     border-radius: 8px;
@@ -641,4 +642,8 @@ button:hover{
     margin: 0;
     font-size: 14px;
     line-height: 1.7;
+}
+#mail button a{
+    text-decoration: none;
+    color: black;
 }
