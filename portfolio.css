@@ -57,26 +57,26 @@ header div{
     padding-bottom: 75px;
 }
 #myself{
+    padding: 20px;
+    margin-bottom: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
 }
-#myself img{
-    width: 500px;
-    height: 500px;
-    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-    margin-top: -50px;
-    margin-right: 60px;
-    margin-left: -150px;
-}
-#title{
-    font-family: cursive;
-    font-size: 30px;
+#myself #intro h2{
+    font-family: 'Cursive', sans-serif;
+    font-size: 80px;
     font-weight: 900;
     color: whitesmoke;
-    display: inline-block;
-    margin-top: -100px;
+    margin: 0;
+}
+#myself #intro h3{
+    font-family: 'Cursive', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #f3f3f3;
+    margin: 10px 0 0;
 }
 #tagline{
     color: whitesmoke;
@@ -243,8 +243,8 @@ header div{
     color: black;
     background-color: lightgrey;
     border-radius: 8px;
-    padding-top: 13px;
-    padding-left: 29px;
+    padding-top: 17px;
+    padding-left: 55px;
     transition: all 0.3s ease-in-out;
 }
 #Projects #allproj div .btnr{
